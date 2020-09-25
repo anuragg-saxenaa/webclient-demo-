@@ -3,7 +3,7 @@
 
 ## 1. Introduction
 
-Usually when we looking for a client to perform HTTP requests in the**Spring Boot**  application we would have probably run into the  _**RestTemplate**_  or reactive  _**WebClient**_.
+Usually when we looking for a client to perform HTTP requests in the **Spring Boot**  application we would have probably run into the  _**RestTemplate**_  or reactive  _**WebClient**_.
 
 According to the official  [documentation](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/client/RestTemplate.html) **RestTemplate**  class is in the maintenance mode since Spring 5 and we should consider using  **WebClient**  which is a part of the Spring WebFlux module. But what if we would like to use it in a standard Spring MVC application without migrating to Spring WebFlux?
 
